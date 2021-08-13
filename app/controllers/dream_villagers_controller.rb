@@ -1,0 +1,2 @@
+class DreamVillagersController < ApplicationController
+end

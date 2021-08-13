@@ -1,0 +1,2 @@
+class UserVillagersController < ApplicationController
+end

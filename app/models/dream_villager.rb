@@ -1,0 +1,2 @@
+class DreamVillager < ApplicationRecord
+end
