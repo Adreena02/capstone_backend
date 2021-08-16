@@ -2,8 +2,6 @@ Rails.application.routes.draw do
   resources :dream_villagers
   resources :user_villagers
   resources :villager_personalities
-  resources :villager_species
-  resources :species
   resources :personalities
   resources :villagers
   resources :players

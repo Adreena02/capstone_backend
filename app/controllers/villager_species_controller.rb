@@ -1,2 +1,0 @@
-class VillagerSpeciesController < ApplicationController
-end

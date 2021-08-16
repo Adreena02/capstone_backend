@@ -1,2 +1,0 @@
-class VillagerSpecies < ApplicationRecord
-end
