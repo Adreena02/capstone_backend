@@ -19,9 +19,9 @@ DreamVillager.destroy_all
 DreamVillager.reset_pk_sequence
 
 puts "Seeding Players..."
-        usernames = ["egg", "macaroni", "beef", "apple"]
-        emails = (Faker::Internet.email(usernames: usernames.sample))
-        4.times do
+        usernames = (Faker::Internet.username)
+        emails = (Faker::Internet.email(name: usernames.sample))
+        10.times do
                 Player.create(usernames: usernames.sample, emails: emails.sample)
         end
 
@@ -32,7 +32,6 @@ puts "Seeding Personalities..."
         end
 
 puts "Seeding Villagers..."
-
     Villager.create(
         name: "Ankha",
         birthday: "September 22",
@@ -314,6 +313,20 @@ puts "Seeding Villagers..."
     )
 
 
+puts "Seeding Dream Villagers..."
+        10.times do
+           DreamVillager.create(player_id: Player.ids.sample, villager_id: Villager.ids.sample)
+        end
 
 
+puts "Seeding User Villagers..."
+        10.times do
+           UserVillager.create(player_id: Player.ids.sample, villager_id: Villager.ids.sample)
+        end
 
+puts "Seeding Villager Personalities..."
+        35.times do
+           VillagerPersonality.create(villager_id: Villager.ids.sample, personality_id: Personality.ids.sample)
+        end
+
+puts "All done seeding! (:"
