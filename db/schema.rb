@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 2021_08_12_194818) do
     t.string "birthday"
     t.string "gender"
     t.string "species"
-    t.string "image_url"
+    t.string "img_url"
   end
 
 end

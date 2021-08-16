@@ -4,4 +4,6 @@ class Player < ApplicationRecord
     has_many :villagers, through: :user_villagers
     has_many :villagers, through: :dream_villagers
 
+    validates 
+
 end
