@@ -20,7 +20,10 @@ DreamVillager.reset_pk_sequence
 
 puts "Seeding Players..."
         usernames = ["egg", "macaroni", "beef", "apple"]
-        emails = []
+        emails = (Faker::Internet.email(usernames: usernames.sample))
+        4.times do
+                Player.create(usernames: usernames.sample, emails: emails.sample)
+        end
 
 puts "Seeding Personalities..."
         personality_names = ["normal", "lazy", "uchi", "snooty", "cranky", "jock", "peppy", "smug"]
