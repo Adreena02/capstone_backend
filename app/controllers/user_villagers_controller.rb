@@ -1,7 +1,13 @@
 class UserVillagersController < ApplicationController
     
     def index
-        render json: UserVillager.all
+        townie = UserVillager.where(player_id: @current_user)
+        render json: townie
+    end
+
+    def show
+        towine = find_townie
+        render json: find_townie
     end
 
     def create
@@ -25,8 +31,12 @@ class UserVillagersController < ApplicationController
 
     private
 
+    def find_townie
+        UserVillager.find_by(id: params[:id])
+    end
+
     def user_villager_params
-        params.permit(:user_id, :villager_id)
+        params.permit(:player_id, :villager_id)
     end
 
 

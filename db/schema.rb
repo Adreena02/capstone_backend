@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_08_12_194818) do
   enable_extension "plpgsql"
 
   create_table "dream_villagers", force: :cascade do |t|
-    t.integer "user_id"
+    t.integer "player_id"
     t.integer "villager_id"
   end
 
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2021_08_12_194818) do
   end
 
   create_table "user_villagers", force: :cascade do |t|
-    t.integer "user_id"
+    t.integer "player_id"
     t.integer "villager_id"
   end
 

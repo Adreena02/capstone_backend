@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :dream_villagers, only: [:index, :create, :show, :destroy]
-  resources :user_villagers, only: [:index, :create, :destroy]
+  resources :user_villagers, only: [:index, :show, :create, :destroy]
   resources :villager_personalities, only: [:index, :show]
   resources :personalities, only: [:index, :show]
   resources :villagers, only: [:index, :show, :create] 
