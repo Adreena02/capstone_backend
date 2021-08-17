@@ -21,6 +21,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem "faker", "~> 2.18"
 
+gem 'rack-cors'
+
 gem 'activerecord-reset-pk-sequence'
 
 # Reduces boot times through caching; required in config/boot.rb
