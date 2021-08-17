@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   resources :villager_personalities, only: [:index, :show]
   resources :personalities, only: [:index, :show]
   resources :villagers, only: [:index, :show, :create] 
-  resources :players, only: [:create, :show]
+  resources :players, only: [:index, :create, :show]
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

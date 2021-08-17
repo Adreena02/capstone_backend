@@ -17,7 +17,7 @@ DreamVillager.reset_pk_sequence
 puts "Seeding Players..."
 10.times do
         Player.create(
-                name: Faker::Internet.username,
+                user_name: Faker::Internet.username,
                 email: Faker::Internet.email)
         end
 
@@ -29,7 +29,7 @@ puts "Seeding Players..."
 
 puts "Seeding Personalities..."
         personality_names = ["normal", "lazy", "uchi", "snooty", "cranky", "jock", "peppy", "smug"]
-        35.times do
+        8.times do
                 Personality.create(name: personality_names.sample)
         end
 

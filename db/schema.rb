@@ -25,8 +25,9 @@ ActiveRecord::Schema.define(version: 2021_08_12_194818) do
   end
 
   create_table "players", force: :cascade do |t|
-    t.string "name"
+    t.string "user_name"
     t.string "email"
+    t.string "password_digest"
   end
 
   create_table "user_villagers", force: :cascade do |t|
