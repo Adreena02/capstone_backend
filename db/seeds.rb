@@ -39,7 +39,7 @@ puts "Seeding Villagers..."
         birthday: "September 22",
         gender: "Female",
         species: "Cat",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/5/56/Ankha_NH.png/revision/latest/scale-to-width-down/217?cb=20200817172044",
+        img_url: "https://aideanimalcrossing.com/wp-content/uploads/2020/10/Neferti.jpg"
     )
 
     Villager.create(
@@ -47,7 +47,7 @@ puts "Seeding Villagers..."
         birthday: "January 1",
         gender: "Male",
         species: "Cat",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/e/ea/Bob_NH.png/revision/latest/scale-to-width-down/217?cb=20200817185816",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/23/Bob_NewLeaf.png"
     )
 
     Villager.create(
@@ -55,7 +55,7 @@ puts "Seeding Villagers..."
         birthday: "March 19",
         gender: "Female",
         species: "Rhino",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/0/0c/Merengue_NH.png/revision/latest?cb=20200321211014",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/10/Merengue_NewHorizon.png"
     )
 
     Villager.create(
@@ -63,7 +63,7 @@ puts "Seeding Villagers..."
         birthday: "January 18",
         gender: "Male",
         species: "Goat",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/1/18/Sherb_NH.png/revision/latest/scale-to-width-down/303?cb=20201127040346",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c7/NewGoat_1.png",
     )
 
     Villager.create(
@@ -71,7 +71,7 @@ puts "Seeding Villagers..."
         birthday: "January 4",
         gender: "Female",
         species: "Deer",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/Diana_NH.png/revision/latest/scale-to-width-down/310?cb=20200802193316",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d9/Diana_NewLeaf.png",
     )
 
     Villager.create(
@@ -79,7 +79,7 @@ puts "Seeding Villagers..."
         birthday: "September 29",
         gender: "Male",
         species: "Squirrel",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/d/da/Marshal_NH.png/revision/latest/scale-to-width-down/350?cb=20200317171946",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d8/Marshal_NewHorizon.png",
     )
 
     Villager.create(
@@ -87,7 +87,7 @@ puts "Seeding Villagers..."
         birthday: "August 31",
         gender: "Female",
         species: "Wolf",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/1/1b/Audie_NH.png/revision/latest?cb=20200829012735",
+        img_url: "https://www.belltreeforums.com/attachments/1596688302994-png.299085/",
     )
 
     Villager.create(
@@ -95,15 +95,15 @@ puts "Seeding Villagers..."
         birthday: "November 4",
         gender: "Male",
         species: "Dog",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/5/59/Lucky_NH.png/revision/latest/scale-to-width-down/275?cb=20200802135150",
+        img_url: "https://i-ac.db0.company/u/villager/219Lucky-JUL6lg.png",
     )
 
     Villager.create(
-        name: "Tia",
-        birthday: "November 18",
+        name: "Pekoe",
+        birthday: "May 18",
         gender: "Female",
-        species: "Elephant",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/0/0d/Tia_NH.png/revision/latest/scale-to-width-down/313?cb=20200802144001",
+        species: "Cub",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/ca/Pekoe_NewLeaf.png",
     )
 
     Villager.create(
@@ -111,7 +111,7 @@ puts "Seeding Villagers..."
         birthday: "March 8",
         gender: "Male",
         species: "Octopus",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/7/7f/Zucker_NH.png/revision/latest/scale-to-width-down/274?cb=20200802161141",
+        img_url: "https://i-ac.db0.company/u/villager/397Zucker-oIjefT.png",
     )
 
     Villager.create(
@@ -119,7 +119,7 @@ puts "Seeding Villagers..."
         birthday: "May 11",
         gender: "Female",
         species: "Dog",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/3/3e/Cherry_NH.png/revision/latest/scale-to-width-down/300?cb=20200524035737",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/ab/Cherry_NewLeaf.png",
     )
 
     Villager.create(
@@ -127,7 +127,7 @@ puts "Seeding Villagers..."
         birthday: "February 10",
         gender: "Male",
         species: "Cub",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/5/56/Stitches_NH.png/revision/latest/scale-to-width-down/140?cb=20200413171903",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/85/Stitches_NewLeaf.png",
     )
 
     Villager.create(
@@ -135,7 +135,7 @@ puts "Seeding Villagers..."
         birthday: "March 10",
         gender: "Female",
         species: "Cub",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/d/d4/Judy_NH.png/revision/latest/scale-to-width-down/270?cb=20200318005830",
+        img_url: "https://static.wikia.nocookie.net/4d966812-47c4-4933-988c-6f22202e9f69",
     )
 
     Villager.create(
@@ -143,7 +143,7 @@ puts "Seeding Villagers..."
         birthday: "February 17",
         gender: "Male",
         species: "Wolf",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/7/76/Dobie_NH.png/revision/latest/scale-to-width-down/250?cb=20200819103512",
+        img_url: "https://pbs.twimg.com/media/EPuN_iAXkAAhK2R.jpg",
     )
 
     Villager.create(
@@ -151,7 +151,7 @@ puts "Seeding Villagers..."
         birthday: "March 26",
         gender: "Female",
         species: "Deer",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/9/91/Fauna_NH.png/revision/latest/scale-to-width-down/204?cb=20200624222648",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/61/Fauna_NewLeaf.png",
     )
 
     Villager.create(
@@ -159,7 +159,7 @@ puts "Seeding Villagers..."
         birthday: "October 1",
         gender: "Male",
         species: "Cat",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/a/a4/Raymond_NH_1.png/revision/latest/scale-to-width-down/184?cb=20200908002252",
+        img_url: "https://img.game8.co/3251211/137045715311e7e70927f24ad6640e94.png/show",
     )
 
     Villager.create(
@@ -167,7 +167,7 @@ puts "Seeding Villagers..."
         birthday: "March 1",
         gender: "Female",
         species: "Rabbit",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/8/83/Coco_NH.png/revision/latest/scale-to-width-down/258?cb=20200321103716",
+        img_url: "https://pbs.twimg.com/media/EPuV_i3U0AAXJt0.jpg",
     )
 
     Villager.create(
@@ -175,7 +175,7 @@ puts "Seeding Villagers..."
         birthday: "March 18",
         gender: "Male",
         species: "Sheep",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/7/75/Dom_NH.png/revision/latest/scale-to-width-down/323?cb=20200930023125",
+        img_url: "https://cdn141.picsart.com/330810791026211.png?type=webp&to=min&r=640",
     )
 
     Villager.create(
@@ -183,7 +183,7 @@ puts "Seeding Villagers..."
         birthday: "July 27",
         gender: "Female",
         species: "Frog",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/4/42/Ketchup_NH.png/revision/latest/scale-to-width-down/317?cb=20200802142754",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a3/Ketchup_HD.png?width=325",
     )
 
     Villager.create(
@@ -191,7 +191,7 @@ puts "Seeding Villagers..."
         birthday: "February 13",
         gender: "Male",
         species: "Frog",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/9/94/Ribbot_NH.png/revision/latest/scale-to-width-down/288?cb=20200802145154",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ef/Ribbot_NewLeaf_Official.png",
     )
 
     Villager.create(
@@ -199,7 +199,7 @@ puts "Seeding Villagers..."
         birthday: "February 27",
         gender: "Female",
         species: "Cat",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/6/67/Rosie_NH.png/revision/latest/scale-to-width-down/130?cb=20200324160932",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/1f/Rosie_NewLeaf.png",
     )
 
     Villager.create(
@@ -207,7 +207,7 @@ puts "Seeding Villagers..."
         birthday: "March 15",
         gender: "Male",
         species: "Horse",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/f/f2/Julian_NH.png/revision/latest/scale-to-width-down/227?cb=20200802154101",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/87/Julian_NewLeaf.png",
     )
 
     Villager.create(
@@ -215,7 +215,7 @@ puts "Seeding Villagers..."
         birthday: "February 20",
         gender: "Female",
         species: "Penguin",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/4/44/Sprinkle_NH.png/revision/latest/scale-to-width-down/345?cb=20200802163456",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d4/Sprinkle_HD.png",
     )
    
     Villager.create(
@@ -223,7 +223,7 @@ puts "Seeding Villagers..."
         birthday: "February 12",
         gender: "Male",
         species: "Alligator",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/f/f9/Drago_NH.png/revision/latest/scale-to-width-down/340?cb=20200802062031",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/69/Drago.png",
     )
 
     Villager.create(
@@ -231,7 +231,7 @@ puts "Seeding Villagers..."
         birthday: "August 20",
         gender: "Male",
         species: "Deer",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/5/53/Lopez_NH.png/revision/latest/scale-to-width-down/282?cb=20200803115324",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/6d/Lopez_NewLeaf.png",
     )
 
     Villager.create(
@@ -239,7 +239,7 @@ puts "Seeding Villagers..."
         birthday: "June 24",
         gender: "Female",
         species: "Cub",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/4/49/Bluebear_NH.png/revision/latest/scale-to-width-down/286?cb=20200817185619",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e6/Bluebear_-_Animal_Crossing_New_Leaf.png",
     )
 
     Villager.create(
@@ -247,7 +247,7 @@ puts "Seeding Villagers..."
         birthday: "March 24",
         gender: "Female",
         species: "Wolf",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/d/d1/Skye_NH.png/revision/latest/scale-to-width-down/248?cb=20200224182217",
+        img_url: "https://i-ac.db0.company/u/villager/337Skye-2Xtoo2.png",
     )
 
     Villager.create(
@@ -255,7 +255,7 @@ puts "Seeding Villagers..."
         birthday: "November 16",
         gender: "Female",
         species: "Dog",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/9/96/Daisy_NH.png/revision/latest?cb=20200802135104",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/36/Daisy_NewLeaf_Official.png",
     )
 
     Villager.create(
@@ -263,7 +263,7 @@ puts "Seeding Villagers..."
         birthday: "November 3",
         gender: "Male",
         species: "Rabbit",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/e/ec/Snake_NH.png/revision/latest?cb=20200321203921",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b1/Snake_NewHorizon.png",
     )
 
     Villager.create(
@@ -271,7 +271,7 @@ puts "Seeding Villagers..."
         birthday: "July 29",
         gender: "Male",
         species: "Lion",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/b/bb/Lionel_NH.png/revision/latest/scale-to-width-down/301?cb=20200718074253",
+        img_url: "https://i-ac.db0.company/u/villager/213Lionel-BRQVlk.png",
     )
 
     Villager.create(
@@ -279,7 +279,7 @@ puts "Seeding Villagers..."
         birthday: "September 21",
         gender: "Male",
         species: "Frog",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/2/26/Henry_NH.png/revision/latest/scale-to-width-down/288?cb=20200802145016",
+        img_url: "https://i-ac.db0.company/u/villager/174Henry-cMmVJD.png",
     )
 
     Villager.create(
@@ -287,7 +287,7 @@ puts "Seeding Villagers..."
         birthday: "December 14",
         gender: "Female",
         species: "Wolf",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/e/ee/Freya_NH.png/revision/latest/scale-to-width-down/250?cb=20200820061634",
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/5b/Freya_NewHorizon.png",
     )
 
     Villager.create(
@@ -295,7 +295,7 @@ puts "Seeding Villagers..."
         birthday: "March 21",
         gender: "Female",
         species: "Monkey",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/0/0c/Elise_NH.png/revision/latest/scale-to-width-down/261?cb=20200802160710",
+        img_url: "https://i-ac.db0.company/u/villager/127Elise-zdwXq0.png",
     )
 
     Villager.create(
@@ -303,7 +303,7 @@ puts "Seeding Villagers..."
         birthday: "August 10",
         gender: "Male",
         species: "Rabbit",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/f/f6/Cole_NH.png/revision/latest/scale-to-width-down/247?cb=20200803114150",
+        img_url: "https://i-ac.db0.company/u/villager/96Cole-ZmG1Br.png",
     )
     
     Villager.create(
@@ -311,7 +311,7 @@ puts "Seeding Villagers..."
         birthday: "July 1",
         gender: "Male",
         species: "Bear",
-        img_url: "https://static.wikia.nocookie.net/animalcrossing/images/2/27/Curt_NH.png/revision/latest/scale-to-width-down/200?cb=20200820052841"
+        img_url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b3/Curt_NewLeaf.png"
     )
 
 puts "Seeding User Villagers..."
