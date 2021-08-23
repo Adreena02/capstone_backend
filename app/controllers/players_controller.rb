@@ -15,6 +15,14 @@ class PlayersController < ApplicationController
         player = find_player
         render json: player.user_villagers
     end
+
+    def dreamies
+        player = find_player
+        render json: player.dream_villagers
+    end
+    # def move_out_townies
+    #     player = find_player
+    #     render json:
     
     def create
         user = Player.create!(player_params)

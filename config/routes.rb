@@ -9,5 +9,7 @@ Rails.application.routes.draw do
 
   get '/user_villagers/:id', to: 'user_villagers#show'
 
-  get '/players/:id/townies', to: 'players#townies'
+  post '/players/:id/dreamies', to: 'players#dreamies'
+
+  post '/players/:id/townies', to: 'players#townies'
 end
