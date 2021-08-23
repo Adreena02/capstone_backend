@@ -12,4 +12,8 @@ Rails.application.routes.draw do
   post '/players/:id/dreamies', to: 'players#dreamies'
 
   post '/players/:id/townies', to: 'players#townies'
+
+  patch '/villagers', to: 'villagers#create'
+
+  delete '/user_villagers/:id', to: 'user_villagers#destroy'
 end
