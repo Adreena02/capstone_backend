@@ -8,9 +8,9 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   get '/user_villagers/:id', to: 'user_villagers#show'
+  get '/players/:id/townies', to: 'players#townies'
 
   post '/players/:id/dreamies', to: 'players#dreamies'
-
   post '/players/:id/townies', to: 'players#townies'
 
   patch '/villagers', to: 'villagers#create'
