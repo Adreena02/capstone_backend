@@ -9,9 +9,8 @@ Rails.application.routes.draw do
 
   get '/user_villagers/:id', to: 'user_villagers#show'
   get '/players/:id/townies', to: 'players#townies'
-
-  post '/players/:id/dreamies', to: 'players#dreamies'
-  post '/players/:id/townies', to: 'players#townies'
+  get '/players/:id/dreamies', to: 'players#dreamies'
+  # post '/players/:id/townies', to: 'players#create_townies'  # should go to a different method then the get request
 
   patch '/villagers', to: 'villagers#create'
 

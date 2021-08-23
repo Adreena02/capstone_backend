@@ -13,12 +13,15 @@ class PlayersController < ApplicationController
 
     def townies 
         player = find_player
-        render json: player.user_villagers
+        user_villagers = player.user_villagers.map {|uv| uv.custom_json_method}
+        render json: user_villagers
     end
+
 
     def dreamies
         player = find_player
-        render json: player.dream_villagers
+        dream_villagers = player.dream_villagers.map {|dv| dv.custom_dream_method}
+        render json: dream_villagers
     end
     # def move_out_townies
     #     player = find_player
@@ -44,6 +47,7 @@ class PlayersController < ApplicationController
     def player_params
         params.permit(:user_name, :email, :password)
     end
+
     
 end
 

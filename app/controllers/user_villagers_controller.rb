@@ -13,7 +13,7 @@ class UserVillagersController < ApplicationController
     def create
         townie = UserVillager.create!(user_villager_params)
         if townie.valid?
-            render json: townie, status: :created
+            render json: townie.custom_json_method, status: :created
         else
             render json: {error: "Not able to add this villager to your town"}
         end

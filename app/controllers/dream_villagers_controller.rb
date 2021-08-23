@@ -13,7 +13,7 @@ class DreamVillagersController < ApplicationController
     def create
         dream = DreamVillager.create!(dream_params)
         if dream.valid?
-            render json: dream, status: :created
+            render json: dream.custom_dream_method, status: :created
         else
             render json: {error: "Not able to make this villager your dreamie"}
         end
@@ -37,7 +37,7 @@ class DreamVillagersController < ApplicationController
     end
 
     def dream_params
-        params.permit(:villager_id, :user_id)
+        params.permit(:villager_id, :player_id)
     end
     
 
