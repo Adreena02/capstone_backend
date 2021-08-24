@@ -5,6 +5,7 @@ class UserVillager < ApplicationRecord
 
     def custom_json_method
         {
+            id: self.id,
             name: self.villager.name,
             gender: self.villager.gender,
             species: self.villager.species,

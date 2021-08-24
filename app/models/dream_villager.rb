@@ -4,6 +4,7 @@ class DreamVillager < ApplicationRecord
 
     def custom_dream_method
         {
+            id: self.id,
             name: self.villager.name,
             gender: self.villager.gender,
             species: self.villager.species,

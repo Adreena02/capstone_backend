@@ -1,7 +1,7 @@
 class UserVillagersController < ApplicationController
     
     def index
-        townie = UserVillager.where(player_id: @current_user)
+        townie = UserVillager.all
         render json: townie
     end
 

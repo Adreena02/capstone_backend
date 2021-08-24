@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   patch '/villagers', to: 'villagers#create'
 
   delete '/user_villagers/:id', to: 'user_villagers#destroy'
+  delete '/dream_villagers/:id', to: 'dream_villagers#destroy'
 end

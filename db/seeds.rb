@@ -325,7 +325,7 @@ puts "Seeding Villager Personalities..."
         end
 
 puts "Seeding Dream Villagers..."
-        10.times do
+        15.times do
            DreamVillager.create(player_id: Player.ids.sample, villager_id: Villager.ids.sample)
         end
 

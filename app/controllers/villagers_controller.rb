@@ -11,6 +11,7 @@ class VillagersController < ApplicationController
 
     def create
         villager = Villager.create!(villager_params)
+        
         if villager.valid?
             render json: villager, status: :created
         else
